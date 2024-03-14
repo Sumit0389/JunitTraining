@@ -10,8 +10,6 @@ public class StockManagementTest {
     @BeforeEach
     public void setup()
     {  // Changes done in feature branch -mainBranch sumit Done
-
-
         testwebService = mock(ExternalISBNDataService.class);
         testdatabaseService=mock(ExternalISBNDataService.class);
         System.out.println("Setup running");
