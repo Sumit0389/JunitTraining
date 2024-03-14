@@ -4,6 +4,13 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class ISBNTest {
 
+    @Test
+    public void mockFeature()
+    {
+            fail();
+            // New Methodgt
+    }
+
    @Test
     public void checkValid10ISBN()
     {
